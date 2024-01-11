@@ -12,10 +12,10 @@ if(isset($_POST['tipo_figura'])){
             echo '<label for="lado2">Lado 2:</label><input type="text" name="lado2" id="lado2"><br>';
             break;
         case 'Cuadrado':
-            echo '<label for="lado">Lado:</label><input type="text" name="lado" id="lado"><br>';
+            echo '<label for="lado">Lado:</label><input type="text" name="lado1" id="lado1"><br>';
             break;
         case 'Circulo':
-            echo '<label for="radio">Radio:</label><input type="text" name="radio" id="radio"><br>';
+            echo '<label for="radio">Radio:</label><input type="text" name="lado1" id="lado1"><br>';
             break;
         default:
             break;

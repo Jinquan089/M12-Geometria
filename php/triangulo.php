@@ -36,15 +36,3 @@ class Triangulo extends FiguraGeometrica implements PerimetroM {
         return $this->getLado1() + $this->lado2 + $lado3;
     }
 }
-
-
-// Ejemplo de uso
-$triangulo = new Triangulo(5, 7);
-$lado3 = $triangulo->calcularLado3();
-$perimetro = $triangulo->calcularPerimetro();
-$area = $triangulo->area();
-
-echo "El lado3 del triángulo es: $lado3\n";
-echo "El perímetro del triángulo es: $perimetro\n";
-echo "El área del triángulo es: $area";
-

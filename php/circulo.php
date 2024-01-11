@@ -30,12 +30,4 @@ class Circulo extends FiguraGeometrica implements PerimetroM {
         return "Círculo de tipo: {$this->getTipoFigura()}, Radio: {$this->getLado1()}";
     }
 }
-
-// Ejemplo de uso
-$circulo = new Circulo(5);
-$area = $circulo->area();
-$perimetro = $circulo->calcularPerimetro();
-echo $circulo->toString() . "\n";
-echo "Área: $area\n";
-echo "Perímetro: $perimetro";
 ?>

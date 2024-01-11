@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Seleccione el tipo de figura:</h1>
-    <form id="figuraForm" action="" method="post">
+    <form id="figuraForm" method="post">
         <label for="tipo_figura">Tipo de Figura:</label>
         <select name="tipo_figura" id="tipo_figura">
             <option value="" selected disabled></option>
@@ -23,6 +23,7 @@
         <br>
         <input type="submit" value="Siguiente">
     </form>
+    <p id="resultado"></p>
 </body>
 </html>
 
