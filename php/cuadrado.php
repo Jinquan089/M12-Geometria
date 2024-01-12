@@ -29,15 +29,10 @@ class Cuadrado extends FiguraGeometrica implements PerimetroM {
 
     // Método para obtener una representación en cadena de la instancia
     public function toString() {
-        return "Cuadrado de tipo: {$this->getTipoFigura()}, Lado: {$this->getLado1()}";
+        return "Cuadrado de tipo: {$this->getTipoFigura()}";
     }
 }
 
 // Ejemplo de uso
-$cuadrado = new Cuadrado(5);
-$area = $cuadrado->area();
-$perimetro = $cuadrado->calcularPerimetro();
-echo $cuadrado->toString() . "\n";
-echo "Área: $area\n";
-echo "Perímetro: $perimetro";
+
 ?>

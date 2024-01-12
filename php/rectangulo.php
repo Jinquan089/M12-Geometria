@@ -15,6 +15,9 @@ class Rectangulo extends FiguraGeometrica implements PerimetroM {
     }
 
     public function setLado2($lado2) {
+        if (!is_numeric($lado2)) {
+            throw new InvalidArgumentException("El valor de lado2 debe ser un número");
+        }
         $this->lado2 = $lado2;
     }
 
@@ -30,7 +33,7 @@ class Rectangulo extends FiguraGeometrica implements PerimetroM {
 
     // Método para obtener una representación en cadena de la instancia
     public function toString() {
-        return "Rectángulo de tipo: {$this->getTipoFigura()}, Lado 1: {$this->getLado1()}, Lado 2: {$this->lado2}";
+        return "Rectángulo de tipo: {$this->getTipoFigura()}";
     }
 }
 ?>

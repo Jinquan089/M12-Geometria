@@ -1,4 +1,6 @@
 <?php
+include('./figura.php');
+include('./interface.php');
 class Circulo extends FiguraGeometrica implements PerimetroM {
 
     // Constructor que utiliza el constructor de la clase padre
@@ -27,7 +29,7 @@ class Circulo extends FiguraGeometrica implements PerimetroM {
 
     // Método para obtener una representación en cadena de la instancia
     public function toString() {
-        return "Círculo de tipo: {$this->getTipoFigura()}, Radio: {$this->getLado1()}";
+        return "Círculo de tipo: {$this->getTipoFigura()}";
     }
 }
 ?>

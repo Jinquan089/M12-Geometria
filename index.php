@@ -23,6 +23,7 @@
         <br>
         <input type="submit" value="Siguiente">
     </form>
+    <br>
     <p id="resultado"></p>
 </body>
 </html>

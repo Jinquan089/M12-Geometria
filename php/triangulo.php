@@ -35,4 +35,7 @@ class Triangulo extends FiguraGeometrica implements PerimetroM {
         $lado3 = $this->calcularLado3();
         return $this->getLado1() + $this->lado2 + $lado3;
     }
+    public function toString() {
+        return "Rectángulo de tipo: {$this->getTipoFigura()}";
+    }
 }
